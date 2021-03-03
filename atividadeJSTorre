@@ -1,0 +1,50 @@
+<script>
+   /* Construa a Torre pelo seguinte argumento dado:
+número de andares (inteiro e sempre maior que 0).
+
+O bloco da torre é representado como *
+
+Python: return a list;
+JavaScript: retorna um Array;
+C #: retorna um string[];
+PHP: retorna um array;
+C ++: retorna um vector<string>;
+Haskell: retorna um [String];
+Ruby: retorna um Array;
+Lua: retorna um Table;
+Divirta-se!
+
+por exemplo, uma torre de 3 andares parece abaixo
+
+[
+  '  *  ', 
+  ' *** ', 
+  '*****'
+]
+e uma torre de 6 andares parece abaixo
+
+[
+  '     *     ', 
+  '    ***    ', 
+  '   *****   ', 
+  '  *******  ', 
+  ' ********* ', 
+  '***********'
+] */
+
+const torreAndares = [
+  '     *     ', 
+  '    ***    ', 
+  '   *****   ', 
+  '  *******  ', 
+  ' ********* ', 
+  '***********'
+]
+console.log(torreAndares[0])
+console.log(torreAndares[1])
+console.log(torreAndares[2])
+console.log(torreAndares[3])
+console.log(torreAndares[4])
+console.log(torreAndares[5])
+
+</script>
