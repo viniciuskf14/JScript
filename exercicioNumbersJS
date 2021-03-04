@@ -1,0 +1,25 @@
+<script>
+ /*   Encontre o menor inteiro na matriz
+Dado um array de inteiros, sua solução deve encontrar o menor inteiro.
+
+Por exemplo:
+
+Dada a [34, 15, 88, 2]sua solução retornará2
+Dada a [34, -345, -1, 100]sua solução retornará-345 
+*/
+
+Array.min = function (array){
+    return Math.min.apply(Math, array)
+}
+
+
+Array.max = function(array){
+    return Math.max.apply(Math, array)
+}
+
+
+let randomNumbers = [79873, 4864198, 48514, 489423, 79872, 1236, 4854189, 498412, 798742, 14]
+
+    console.log(Array.min(randomNumbers))
+    console.log(Array.max(randomNumbers))
+</script>
