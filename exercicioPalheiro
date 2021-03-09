@@ -1,0 +1,33 @@
+<script>
+    /*Você pode encontrar a agulha no palheiro?
+
+Escreva uma função findNeedle()que leva um arraycheio de lixo, mas contendo um"needle"
+
+Depois que sua função encontrar a agulha, ela deve retornar uma mensagem (como uma string) que diz:
+
+"found the needle at position "mais o indexencontrou a agulha, então:
+
+findNeedle(['hay', 'junk', 'hay', 'hay', 'moreJunk', 'needle', 'randomJunk'])
+deveria retornar "found the needle at position 5" */
+
+const lixeiro = [
+    'hay', 
+    'junk', 
+    'hay',
+    'hay', 
+    'moreJunk', 
+    'needle', 
+    'randomJunk']
+    
+    console.log(lixeiro.includes("needle"))
+    
+    if(lixeiro.includes("needle")){
+        console.log("Sim! Existe esse elemento e esta na posição: \n")
+        console.log(lixeiro.indexOf("needle"))
+
+    }
+    
+   
+
+
+</script>
